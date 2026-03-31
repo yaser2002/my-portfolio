@@ -1,0 +1,408 @@
+@media screen and (max-width: 1300px) {
+  .header {
+    gap: 600px;
+  }
+  .list {
+    gap: 40px;
+  }
+  .hero-section {
+    padding: 100px 100px;
+  }
+  .service-boxes {
+    /* gap: 10px; */
+  }
+  .box-1 {
+    padding: 50px 30px;
+    /* width: 100%; */
+    height: 70%;
+  }
+  .portfolio {
+    padding: 70px;
+  }
+  .latest {
+    padding: 70px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .header {
+    gap: 500px;
+  }
+  .hero-section {
+    padding: 100px 100px 0 100px;
+  }
+  .latest-boxes {
+    gap: 20px;
+  }
+  .contacts {
+    width: 300px;
+    padding: 13px 5px;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+  .header {
+    gap: 200px;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .list {
+    background-color: rgba(16, 87, 168, 0.6);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    padding: 0 4.6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    flex-direction: column;
+  }
+
+  .nav-open .list {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .open {
+    display: none;
+  }
+  .nav-open .close {
+    display: block;
+  }
+  .nav-list {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .nav-icon {
+    gap: 7px;
+  }
+  .nav-icon iconify-icon {
+    font-size: 16px;
+  }
+
+  .hero-section {
+    gap: 40px;
+    margin: 0 auto;
+  }
+  .yaser {
+    font-size: 35px;
+  }
+  .title-1 {
+    font-size: 14px;
+  }
+  .title-2 {
+    font-size: 25px;
+  }
+  .learn-more {
+    font-size: 15px;
+  }
+  .section2 {
+    padding: 100px 50px;
+  }
+  .service-boxes {
+    gap: 20px;
+  }
+  .box-icon {
+    font-size: 50px;
+  }
+  .box-desc {
+    font-size: 15px;
+  }
+  .box-desc span {
+    font-size: 16px;
+  }
+  .number {
+    font-size: 22px;
+  }
+  .section3 {
+    padding: 50px;
+  }
+  .port-list {
+    margin-bottom: 50px;
+  }
+  .pectures {
+    gap: 15px;
+  }
+  .pecture- {
+    gap: 16px;
+  }
+  .section4 {
+    padding: 50px;
+  }
+  .desc- {
+    margin-bottom: 50px;
+  }
+  .latest-boxes {
+    grid-template-columns: 1fr;
+  }
+  .latest-box1 {
+    padding-bottom: 25px;
+  }
+  .image-date {
+    bottom: 217px;
+    padding: 8px 3px;
+    font-size: 13px;
+  }
+  .box-title {
+    font-size: 20px;
+  }
+  .child-image-date {
+    font-size: 10px;
+    padding: 7px 4px;
+  }
+  .section5 {
+    padding: 100px;
+  }
+  .contacts {
+    width: 230px;
+  }
+  .contact-link {
+    font-size: 15px;
+  }
+  .contact-icon {
+    font-size: 20px;
+  }
+  .www {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    gap: 200px;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .list {
+    background-color: rgba(16, 87, 168, 0.6);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    padding: 0 4.6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    flex-direction: column;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+  .nav-icon iconify-icon {
+    font-size: 30px;
+  }
+  .nav-open .list {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .open {
+    display: none;
+  }
+  .nav-open .close {
+    display: block;
+  }
+  .nav-list {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .nav-icon {
+    gap: 7px;
+  }
+  .nav-icon iconify-icon {
+    font-size: 16px;
+  }
+  .title-1 {
+    font-size: 12px;
+  }
+  .title-2 {
+    font-size: 20px;
+  }
+  .desc {
+    line-height: 17px;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .introduction {
+    display: none;
+  }
+  .service-boxes {
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+  }
+  .desc- {
+    line-height: 17px;
+    margin-bottom: 30px;
+  }
+  .section2 {
+    padding: 100px;
+  }
+  .box-1 {
+    margin-bottom: 25px;
+  }
+  .port-list {
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  .port-link {
+    font-size: 13px;
+  }
+  .pectures {
+    gap: 13px;
+  }
+  .pecture- {
+    gap: 12px;
+  }
+  .latest {
+    padding: 40px 100px;
+  }
+  .latest-boxes {
+    grid-template-columns: 1fr;
+  }
+  .image-date {
+    bottom: 282px;
+  }
+  .contacts {
+    width: 190px;
+    padding: 8px 7px;
+  }
+  .contact-link {
+    font-size: 13px;
+  }
+  .contact-icon {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+
+  .hero-section {
+    margin: 0;
+    padding: 20px;
+    gap: 0;
+  }
+  .yaser-photo {
+    width: 350px;
+  }
+  .social-item {
+    font-size: 12px;
+  }
+  .social-item:nth-child(2) {
+    padding-left: 10px;
+    border: none;
+  }
+  .contact-me {
+    font-size: 15px;
+  }
+  .services {
+    padding: 0 30px;
+  }
+  .service-boxes {
+    grid-template-columns: 1fr;
+  }
+  .port-link {
+    font-size: 11px;
+  }
+  .section3 {
+    padding: 0;
+  }
+  .pectures {
+    grid-template-columns: 1fr;
+  }
+  .section4 {
+    padding: 0;
+  }
+  .latest {
+    padding: 20px;
+  }
+  .section5 {
+    padding: 70px;
+  }
+  .app-contact-1 {
+    grid-template-columns: 1fr;
+  }
+  .app-contact-2 {
+    grid-template-columns: 1fr;
+  }
+  .contacts {
+    width: 270px;
+  }
+  .www {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .hero-section {
+    padding: ;
+  }
+  .yaser-photo {
+    width: 230px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .section2 {
+    padding: 50px 20px;
+  }
+  .section3 {
+    padding: 10px;
+  }
+  .portfolio {
+    padding: 20px;
+  }
+  .section4 {
+    padding: 50px 10px;
+  }
+  .port-list {
+    gap: 10px;
+  }
+  .port-link {
+    font-size: 8px;
+  }
+  .www {
+    font-size: 12px;
+  }
+  .copy {
+    font-size: 8px;
+  }
+  .copy-icon {
+    font-size: 12px;
+  }
+}
